@@ -25,7 +25,7 @@ app.use(session({
 }));
 
 //Func for Portfolio
-function createProfile (){
+function createProfil (){
 	var Profile = `
 	<!DOCTYPE html>
 <html lang="en">
@@ -695,7 +695,7 @@ app.get('/ui/img/:fileName', function (req, res) {
 
 //about-profile
 app.get('/about/profile', function (req, res) {
-	res.send(createProfile());
+	res.send(createProfil());
 });
 
 app.get('/about/images/:fileName', function (req, res) {
