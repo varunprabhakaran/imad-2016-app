@@ -8,11 +8,11 @@ var session = require('express-session');
 
 
 var config = {
-    user: 'postgres',
-    database: 'demo',
-    host: 'localhost',
+    user: 'varunprabhakaran',
+    database: 'varunprabhakaran',
+    host: 'db.imad.hasura-app.io',
     port: '5432',
-    password: 'jayasurya',
+    password: process.env.DB_PASSWORD
 };
 
 
