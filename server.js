@@ -33,12 +33,15 @@ function createCategory (){
 <meta charset="utf-8">
 <title>My Blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-<!-- Bootstrap Css-->
-<link rel="stylesheet" href="css/bootstrap.min.css">
 
-<!-- Bootstrap Js -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <!-- Own Styles-->
 <link rel="stylesheet" href="css/style.css">
@@ -187,7 +190,7 @@ function createCategory (){
 	 `;
 
 	return catTemplate;
-};
+}
 
 //Article 
 function createTemplate (data) {
@@ -206,12 +209,15 @@ function createTemplate (data) {
 <meta charset="utf-8">
 <title>My Blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-<!-- Bootstrap Css-->
-<link rel="stylesheet" href="css/bootstrap.min.css">
 
-<!-- Bootstrap Js -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <!-- Own Styles-->
 <link rel="stylesheet" href="css/style.css">
