@@ -24,6 +24,310 @@ app.use(session({
     cookie: { maxAge: 1000 * 60 * 60 * 24 * 30}
 }));
 
+//Func for Portfolio
+function createProfile (){
+	var Profile = `
+	<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile</title>
+
+    <!-- Bootstrap Css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/myprofile.css">
+
+    <!-- Bootstrap Js -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--Font-awesome cdn-->
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+
+  </head>
+  <body>
+
+<!--Container TSarts Here-->
+<div class="container-fluid text-center home-bg" style="padding-top: 12%;padding-bottom: 13.5%;">
+
+        <img src="images/avatar.jpg" class="img-circle">
+        <h1> <small style="color: #FFF !important;">Varun Prabhakaran</small></h1>
+        <h4 class="caps"><small>Freelancer / Web Designer</small></h4>
+
+
+      <div class="social">
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp;&nbsp;
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>&nbsp;&nbsp;
+        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      </div>
+
+</div>
+
+<!-- Container Ends Here-->
+
+<!--Section 2 Starts here-->
+
+<section class="col-1">
+<div class="container-fluid">
+  <div class="col-lg-12 pad-top-bot-25">
+    <h2 style="border-bottom:1px solid green;"> <small>Education</small></h2>
+  </div>
+
+  <!--Cont-1-->
+  <div class="col-lg-12 pad-top-bot-25">
+  <div class="col-lg-3 pad-top-25">
+    <p>2000-2011<br>
+SSLC</p>
+  </div>
+  <div class="col-lg-9 border-left">
+    <h2>St.Joseph’s Mat.Hr. Sec.School.</h2><br>
+  </div>
+  </div>
+
+  <!--Cont-2-->
+  <div class="col-lg-12 pad-top-bot-25">
+  <div class="col-lg-3 pad-top-25">
+    <p>2011-2013<br>
+Master Degree</p>
+  </div>
+  <div class="col-lg-9 border-left">
+    <h2>St.Joseph’s Mat.Hr. Sec.School.</h2><br>
+   </div>
+  </div>
+
+  <!--Cont-3-->
+  <div class="col-lg-12 pad-top-bot-25">
+  <div class="col-lg-3 pad-top-25">
+    <p>2013-2018<br>
+Master Degree</p>
+  </div>
+  <div class="col-lg-9 border-left">
+<h2>Sri Krishna Arts and Science College.</h2><br>  
+  </div>
+  </div>
+
+
+</div>
+</section>
+
+<section class="sec1-bg">
+  <div class="container-fluid">
+	
+   <div style="padding:25%;" >
+   <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100" style="width:73%">
+      73% Complete (success)
+    </div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100" style="width:73%">
+      73% Complete (success)
+    </div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100" style="width:73%">
+      73% Complete (success)
+    </div>
+  </div>
+  </div>
+ </div> 
+      
+</section>
+
+<!--Section 2 ends here-->
+
+<!--Section 3 starts here-->
+
+<section class="col-2">
+<div class="container-fluid">
+  <div class="col-lg-12 pad-top-bot-25">
+    <h2 style="border-bottom:1px solid green;"> <small>CO-CURRICULAR ACTIVITIES</small></h2>
+  </div>
+
+  <!--Cont-1-->
+  <div class="col-lg-12 pad-top-bot-25">
+  <div class="col-lg-3 pad-top-25">
+  	<p>Poster Presentation</p>
+  </div>
+  <div class="col-lg-9 border-left">
+    <h5>Presented a poster on “Computer Technology”in theNational Conference
+(NCCTC’13) organized by Sri Krishna College Coimbatore.</h5><br>
+  </div>
+  </div>
+
+  <!--Cont-2-->
+  <div class="col-lg-12 pad-top-bot-25">
+  <div class="col-lg-3 pad-top-25">
+  	<p>Journal Publication</p>
+  </div>
+  <div class="col-lg-9 border-left">
+	<h5>Published a paper on “Bio- Nano robotics : The Milestone of Nanotechnology and
+Medicine” in the Internationaljournal of Advanced Research in Computer
+Science (ISSN No. 0976-569).</h5>
+   </div>
+  </div>
+
+  <!--Cont-3-->
+  <div class="col-lg-12 pad-top-bot-25">
+  <div class="col-lg-3 pad-top-25">
+  	<p>Journal Publication</p>
+  </div>
+  <div class="col-lg-9 border-left">
+	<h5>Published a paper on “Human Pose Recognition by Single Depth Image”in the
+National Conference on Recent Trends in Computer Technology(NCRTCT’15).</h5>
+  </div>
+  </div>
+
+
+</div>
+</section>
+
+<section class="sec2-bg">
+  <div class="container-fluid">
+	
+    <div align="center" style="padding-top:30%;">
+    <h1>Im Looking For A Job</h1>
+    <a href="#" class="btn btn-black">Hire Me</a>
+    </div>
+   
+ </div> 
+</section>
+
+<!--Section 3 ends here-->
+
+<!--Section 4 starts here-->
+
+<section class="col-aca-2">
+  <div class="container-fluid">
+
+	<div class="col-lg-12 pad-top-bot-25">
+    <h2 style="border-bottom:1px solid green;"> <small>ACADEMIC PROJECT - II</small></h2>
+    <div style="padding:20px 10px;">
+    <h4 style="padding:20px;">CRIME MANAGEMENT SYSTEM</h4>
+    <p><blockquote style="font-size:16.5px;padding-left:20px;margin:0px 25px !important;">The main idea behind developing this project is to provide an application for police
+department to manage criminal details. This app provides a facility for reporting crimes,
+complaints and easy access to the public in a computerized manner.</blockquote></p>
+    </div>
+  </div>	
+
+ </div> 
+</section>
+
+<section class="col-aca-1">
+<div class="container-fluid">
+  <div class="col-lg-12 pad-top-bot-25">
+    <h2 style="border-bottom:1px solid green;"> <small>ACADEMIC PROJECT - I</small></h2>
+    <div style="padding:20px 10px;">
+    <h4 style="padding:20px;">DISCOVERING EMERGING TOPIC IN SOCIAL NETWORKS</h4>
+    <p><blockquote style="font-size:16.5px;padding-left:20px;margin:0px 25px !important;">This project focus on emergence of topic signaled by social aspects of these networks.This project propose a probability model of the mentioning behavior of the user, and propose to detect the emergence of a new topic from anomalies measured through the model.</blockquote></p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!--Section 4 ends here-->
+<div class="clearfix"></div>
+<!--Section 5 starts here-->
+<section class="col-1">
+<div class="container-fluid">
+  
+  <div class="col-lg-12 pad-top-bot-25">
+    <h2 style="border-bottom:1px solid green;"> <small>TECHNICAL SKILLS</small></h2>
+    <div style="padding:20px 10px;">
+    <h4 style="padding:20px;">LANGUAGE</h4>
+	<blockquote style="font-size:16.5px;padding-left:20px;margin:0px 25px !important;">
+        <ul>
+            <li style="list-style:none !important;padding:10px;">C</li>
+            <li style="list-style:none !important;padding:10px;">C++</li>
+            <li style="list-style:none !important;padding:10px;">HTML 5</li>
+            <li style="list-style:none !important;padding:10px;">CSS</li>
+            <li style="list-style:none !important;padding:10px;">BOOTSTRAP</li>
+            <li style="list-style:none !important;padding:10px;">NODE JS</li>
+        </ul>
+  	</blockquote>
+    </div>
+  </div>
+
+
+</div>
+</section>
+
+<section class="sec1-bg">
+  <div class="container-fluid">
+	
+   <div style="padding:15%;" >
+   <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+     65% - C Language
+    </div>
+  </div>
+  <br>
+  <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+      60% - C++ Language
+    </div>
+  </div>
+  <br>
+  
+  <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100" style="width:62%">
+      62% - HTML
+    </div>
+  </div>
+  <br>
+  
+  <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+      60% - CSS
+    </div>
+  </div>
+  <br>
+  
+  <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+      60% - BOOTSTRAP
+    </div>
+  </div>
+  <br>
+  
+  <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+      30% - NodeJs
+    </div>
+  </div>
+  
+  </div>
+ </div> 
+      
+</section>
+
+<!--Section 5 ends here-->
+<div class="clearfix"></div>
+<!--Footer starts here-->
+<div class="container-fluid footer-background">
+	
+    <div class="col-lg-12">
+    	<div align="center">
+        	<p>Designed By Varun</p>
+        </div>
+    </div>
+    
+</div>
+<!--Footer ends here-->
+
+  </body>
+</html>
+
+	`;
+	return Profile;
+}
+
+
 //Category
 function createCategory (){
 	var catTemplate =`
