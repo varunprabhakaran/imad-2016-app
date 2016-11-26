@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header{
+	background-color:#8ad8dd;
+	color:#FFF;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.cat{
+	color:#8ad8dd;
+}
+
+.cat:hover{
+	text-decoration:none !important;
+	color:#8ad8dd;
+}
+
+.date{
+	
+}
+
+.cat_title{
+	text-align:center !important;
+	padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.para{
+	text-align:justify;
+}
+
+.view{
+	padding-left:80% !important;
+}
+
+.title{
+	font-size:15px !important;
+}
+
+h3.title:before{
+	content: "//";
+    font-size: 15px;
+    line-height: 1;
+    margin-right: 4px;
+    font-weight: 900;
+    color: #8ad8dd;
+}
+
+.about-me{
+	text-align:center;
+	background-color:#FFF;
+	padding: 0px 5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:-20px;
+	border-radius:35px;
+	border:1px dashed #999 !important;
+	width:80%;
+	font-size:16px;
+	font-weight:700;
+	padding-left:10px !important;
+	position:relative;
+	z-index:1 !important;
+}
+
+.abt-me{
+	padding:10px 20px;
+	background-color:#8ad8dd;
+	color:white;
+	border-radius:30px;
+}
+
+.pad_bot{
+	padding-bottom:15px;
+}
+
+.pad_top_5{
+	padding-top:10px !important;
+}
+
+.footer{
+	background-color:#EEF1F4;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.foot_head{
+	text-transform:uppercase;
+	background-color:#000;
+	color:#FFF;
+	padding:10px 10px;
+	text-align:center;
+}
+
+.border{
+	border-bottom:1px dashed #CCCCCC !important;
+	padding-top:5px;
+	margin-bottom:15px;
+}
+
+.pad_left{
+	padding-left:0px !important;
+}
+
+/*Related article link */
+.rel_article_link{
+	padding-top:5px !important;
+	font-size:12px !important;
+}
+
+.pad_no{
+	padding-top:0px;
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+	.pad_no{
+		padding-top:0px !important;
+	}
+}
+
+/*Used for tab STarts Here */
+.col-2{
+	background:none;
+}
+
+.col-10{
+	background:none;
+}
+
+@media only screen and (min-width:450px) and (max-width:767px){
+	.col-2{
+		width:16% !important;
+	}
+	.col-10{
+		width:84% !important;
+	}
+}
+
+/* Ends Here*/
+
+.right{
+	text-align:right !important;
+}
