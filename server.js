@@ -24,6 +24,22 @@ app.use(session({
     cookie: { maxAge: 1000 * 60 * 60 * 24 * 30}
 }));
 
+
+var pool = new Pool(config);
+
+app.get('/test', function (req, res) {
+   // make a select request
+   // return a response with the results
+   pool.query('SELECT * FROM article', function (err, result) {
+      if (err) {
+          res.status(500).send(err.toString());
+      } else {
+          res.send(JSON.stringify(result));
+      }
+   });
+});
+
+
 //Func for Portfolio
 function createProfil (){
 	var Profile = `
