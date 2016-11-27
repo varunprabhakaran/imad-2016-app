@@ -574,7 +574,7 @@ function createTemplate (data) {
     	<a href="/" class="btn">Home</a>
 	</div>
         <div class="cat_title">
-          <p><b class="cat">${category}</b> / Nov 2,2016.</p>
+          <p><a href="/category/${category}"><b class="cat">${category}</b><a> / Nov 2,2016.</p>
           <h3>${heading}</h3>
         </div>
         <!-- To Align the image to the center-->
