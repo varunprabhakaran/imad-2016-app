@@ -13,20 +13,11 @@ var session = require('express-session');
     password: 'db-varunprabhakaran-39636'*/
 
 var config = {
-        dev:{
-		user: 'postgres',
-		database: 'imad',
-		host: 'localhost',
-		port: '5432',
-		password: process.env.PGDB_PASSWORD
-	},
-	prod:{
-		user: 'varunprabhakaran',
-		database: 'varunprabhakaran',
-		host: 'db.imad.hasura-app.io',
-		port: '5432',
-		password: process.env.DB_PASSWORD
-	}
+    user: 'varunprabhakaran',
+    database: 'varunprabhakaran',
+    host: 'db.imad.hasura-app.io',
+    port: '5432',
+    password: 'db-varunprabhakaran-39636'
 };
 
 
@@ -39,9 +30,9 @@ app.use(session({
 }));
 
 
-/*var pool = new Pool(config);*/
+var pool = new Pool(config);
 
-var pool=new Pool(config.prod);
+
 
 app.get('/test', function (req, res) {
    // make a select request
