@@ -118,7 +118,7 @@ function createProfil (){
 SSLC</p>
   </div>
   <div class="col-lg-9 border-left">
-    <h2>St.Joseph’s Mat.Hr. Sec.School.</h2><br>
+    <h2>St.Joseph's Mat.Hr. Sec.School.</h2><br>
   </div>
   </div>
 
@@ -129,7 +129,7 @@ SSLC</p>
 Master Degree</p>
   </div>
   <div class="col-lg-9 border-left">
-    <h2>St.Joseph’s Mat.Hr. Sec.School.</h2><br>
+    <h2>St.Joseph's Mat.Hr. Sec.School.</h2><br>
    </div>
   </div>
 
@@ -790,13 +790,13 @@ app.get('/category/ui/images/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/images', req.params.fileName));
 });
 
-var pool = new Pool(config);
+var pool=new Pool(config.prod);
 
 app.get('/get-articles', function (req, res) {
    // make a select request
    // return a response with the results
    pool.query('SELECT * FROM article ORDER BY date DESC', function (err, result) {
-      if (err) {
+     if (err) {
           res.status(500).send(err.toString());
       } else {
           res.send(JSON.stringify(result.rows));
