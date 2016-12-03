@@ -746,6 +746,9 @@ app.get('/ui/js/:fileName', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/js', req.params.fileName));
 });
 
+app.get('/images/test/:fileName', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui/images/test', req.params.fileName));
+});
 
 
 //For Article
