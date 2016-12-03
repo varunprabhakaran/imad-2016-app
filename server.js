@@ -558,9 +558,9 @@ function createTemplate (data) {
 <body>
 
 <!-- Container Starts Here-->
-<div class="container">
+<div class="container-fluid header">
   <div class="row">  
-    <div class="col-lg-12 header col-md-12 col-sm-12 col-xs-12">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     	<div class="col-lg-offset-5 col-lg-2 col-lg-offset-5 col-md-offset-5 col-md-3 col-sm-offset-5 col-sm-3">
       <a href="/" style="color:#FFF;"><h1>My Blog</h1></a>
       </div>
