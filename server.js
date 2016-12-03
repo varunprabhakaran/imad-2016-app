@@ -413,7 +413,7 @@ function createCategory (){
       
       <div class="col-lg-12 pad_bot">
         <h3 class="title" style="margin-top: 0px;">ABOUT AUTHOR</h3>
-        <div align="center"> <img src="images/one.jpg" class="img-responsive"> </div>
+        <div align="center"> <img src="/images/one.jpg" class="img-responsive"> </div>
         <div align="center">
           <h4 class="about-me" align="center">JAYA SURYA</h4>
         </div>
@@ -471,7 +471,7 @@ function createCategory (){
             
             <div class="col-lg-12" align="center">
             	
-            	<img src="images/test.jpg" class="img-circle">
+            	<img src="/images/test.jpg" class="img-circle">
                 <p>Jayasurya</p>
                 
                 <p>Email: <a href="#">jayasuryas06@gmail.com</a></p>
@@ -579,7 +579,7 @@ function createTemplate (data) {
         </div>
         <!-- To Align the image to the center-->
         <div align="center" class="pad_bot">
-        <img src="ui/images/two.jpg" class="img-responsive">
+        <img src="/images/two.jpg" class="img-responsive">
         </div>
         
         <p class="para">${content}</p>
@@ -604,7 +604,7 @@ function createTemplate (data) {
       
       <div class="col-lg-12 pad_bot">
         <h3 class="title">ABOUT AUTHOR</h3>
-        <div align="center"> <img src="ui/images/one.jpg" class="img-responsive"> </div>
+        <div align="center"> <img src="/images/one.jpg" class="img-responsive"> </div>
         <div align="center">
           <h4 class="about-me" align="center">JAYA SURYA</h4>
         </div>
@@ -651,7 +651,7 @@ function createTemplate (data) {
             
             <div class="col-lg-12" align="center">
             	
-            	<img src="ui/images/test.jpg" class="img-circle">
+            	<img src="/images/test.jpg" class="img-circle">
                 <p>Jayasurya</p>
                 
                 <p>Email: <a href="#">jayasuryas06@gmail.com</a></p>
