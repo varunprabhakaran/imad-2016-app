@@ -129,7 +129,7 @@ function loadArticles () {
                 for (var i=0; i< articleData.length; i++) {
                    
 				   content += `
-				         <div class="col-lg-6 pad_bot col-sm-6"> <img src="ui/${articleData[i].img}" class="img-responsive">
+				         <div class="col-lg-6 pad_bot col-sm-6"> <img src="${articleData[i].img}" class="img-responsive">
         <div class="cat_title">
           <p><b class="cat">${articleData[i].category}</b> / (${articleData[i].date.split('T')[0]})</p>
           <h3>${articleData[i].heading}</h3>
@@ -214,7 +214,7 @@ function latestArticles () {
 				   content += `   
 				   
 			<div class="col-lg-4 pad_top_5 col-sm-2 col-md-4 col-xs-3 col-2">
-            	<img src="ui/${articleData[i].img}" class="img-responsive">
+            	<img src="${articleData[i].img}" class="img-responsive">
             </div>
             
             <div class="col-lg-8 pad_top_5 col-sm-10 col-md-8 col-xs-9 col-10" style="margin-left:-15px !important;font-weight:500;">
@@ -257,7 +257,7 @@ function popArticles () {
 				   content += `   
 				   
             <div class="col-lg-4 pad_top_5 col-sm-4 col-xs-3 col-2">
-            	<img src="ui/${articleData[i].img}" class="img-responsive">
+            	<img src="${articleData[i].img}" class="img-responsive">
             </div>
             
             <div class="col-lg-8 pad_top_5 col-sm-8 col-xs-9 col-10" style="margin-left:-15px !important;font-weight:500;">
