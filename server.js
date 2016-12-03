@@ -471,7 +471,7 @@ function createCategory (){
             
             <div class="col-lg-12" align="center">
             	
-            	<img src="/images/profile.jpg" class="img-circle">
+            	<img src="/images/profile.jpg" class="img-circle" height="160px" width="160px">
                  <p>Varun</p>
                 
                 <p>Email: <a href="#">varunanie74@gmail.com</a></p>
@@ -655,7 +655,7 @@ function createTemplate (data) {
             
             <div class="col-lg-12" align="center">
             	
-            	<img src="/images/profile.jpg" class="img-circle">
+            	<img src="/images/profile.jpg" class="img-circle" height="160px" width="160px">
                  <p>Varun</p>
                 
                 <p>Email: <a href="#">varunanie74@gmail.com</a></p>
