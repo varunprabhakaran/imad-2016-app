@@ -491,7 +491,7 @@ function createCategory (){
         <div class="col-lg-4 col-sm-4 col-xs-12">
         	<h3 class="foot_head title">Keep In Touch</h3>
             
-           <a class="twitter-timeline" data-width="500" data-height="250" href="https://twitter.com/s_jayasurya">Tweets by s_jayasurya</a> <script async src="//<strong>platform.twitter.com/widgets.js</strong>" charset="utf-8"></script>
+           <a class="twitter-timeline" data-width="500" data-height="250" href="https://twitter.com/VARUNANIE7">Tweets by Varun</a> <script async src="//<strong>platform.twitter.com/widgets.js</strong>" charset="utf-8"></script>
           
           
                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
@@ -672,7 +672,7 @@ function createTemplate (data) {
         <div class="col-lg-4 col-sm-4 col-xs-12">
         	<h3 class="foot_head title">Keep In Touch</h3>
             
-           <a class="twitter-timeline" data-width="500" data-height="250" href="https://twitter.com/s_jayasurya">Tweets by s_jayasurya</a> <script async src="//<strong>platform.twitter.com/widgets.js</strong>" charset="utf-8"></script>
+           <a class="twitter-timeline" data-width="500" data-height="250" href="https://twitter.com/VARUNANIE7">Tweets by Varun</a> <script async src="//<strong>platform.twitter.com/widgets.js</strong>" charset="utf-8"></script>
           
           
                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
