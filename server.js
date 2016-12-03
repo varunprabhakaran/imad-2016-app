@@ -579,7 +579,7 @@ function createTemplate (data) {
         </div>
         <!-- To Align the image to the center-->
         <div align="center" class="pad_bot">
-        <img src="/images/two.jpg" class="img-responsive">
+        <img src="${img}" class="img-responsive">
         </div>
         
         <p class="para">${content}</p>
