@@ -413,9 +413,9 @@ function createCategory (){
       
       <div class="col-lg-12 pad_bot">
         <h3 class="title" style="margin-top: 0px;">ABOUT AUTHOR</h3>
-        <div align="center"> <img src="/images/one.jpg" class="img-responsive"> </div>
+        <div align="center"> <img src="/images/profile.jpg" class="img-responsive"> </div>
         <div align="center">
-          <h4 class="about-me" align="center">JAYA SURYA</h4>
+          <h4 class="about-me" align="center">Varun</h4>
         </div>
         
         <div align="center">
@@ -471,11 +471,11 @@ function createCategory (){
             
             <div class="col-lg-12" align="center">
             	
-            	<img src="/images/test.jpg" class="img-circle">
-                <p>Jayasurya</p>
+            	<img src="/images/profile.jpg" class="img-circle">
+                 <p>Varun</p>
                 
-                <p>Email: <a href="#">jayasuryas06@gmail.com</a></p>
-                <p>Mob.No: 9894685416</p>
+                <p>Email: <a href="#">varunanie74@gmail.com</a></p>
+                <p>Mob.No: 7708927708</p>
                 
             </div>
             
@@ -604,9 +604,9 @@ function createTemplate (data) {
       
       <div class="col-lg-12 pad_bot">
         <h3 class="title">ABOUT AUTHOR</h3>
-        <div align="center"> <img src="/images/one.jpg" class="img-responsive"> </div>
+        <div align="center"> <img src="/images/profile.jpg" class="img-responsive"> </div>
         <div align="center">
-          <h4 class="about-me" align="center">JAYA SURYA</h4>
+          <h4 class="about-me" align="center">Varun</h4>
         </div>
         
         <div align="center">
@@ -651,11 +651,11 @@ function createTemplate (data) {
             
             <div class="col-lg-12" align="center">
             	
-            	<img src="/images/test.jpg" class="img-circle">
-                <p>Jayasurya</p>
+            	<img src="/images/profile.jpg" class="img-circle">
+                 <p>Varun</p>
                 
-                <p>Email: <a href="#">jayasuryas06@gmail.com</a></p>
-                <p>Mob.No: 9894685416</p>
+                <p>Email: <a href="#">varunanie74@gmail.com</a></p>
+                <p>Mob.No: 7708927708</p>
                 
             </div>
             
