@@ -420,7 +420,7 @@ function createCategory (){
         
         <div align="center">
         	<p>Have seasons lesser under them saw his let so itself one, fourth subdue. Fly third blessed dry fifth dominion two called their for which in dry unto winged great saw.</p>
-            <a href="#" class="abt-me">ABOUT ME</a>
+            <a href="/about/profile" class="abt-me">ABOUT ME</a>
         </div>
       
       <!--Login-->
@@ -614,7 +614,7 @@ function createTemplate (data) {
         
         <div align="center">
         	<p>Have seasons lesser under them saw his let so itself one, fourth subdue. Fly third blessed dry fifth dominion two called their for which in dry unto winged great saw.</p>
-            <a href="#" class="abt-me">ABOUT ME</a>
+            <a href="/about/profile" class="abt-me">ABOUT ME</a>
         </div>
         
       </div>
