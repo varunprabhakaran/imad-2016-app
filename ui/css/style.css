@@ -33,6 +33,10 @@
 	text-align:justify;
 }
 
+p{
+    text-align:justify;
+}
+
 .view{
 	padding-left: 75% !important;
 }
