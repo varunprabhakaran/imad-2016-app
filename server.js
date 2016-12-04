@@ -361,7 +361,7 @@ function createCategory (){
 <html>
 <head>
 <meta charset="utf-8">
-<title>My Blog</title>
+<title>ProClix</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
 <!-- Latest compiled and minified CSS -->
@@ -500,7 +500,7 @@ function createCategory (){
         
         <!--CopyRight starts Here-->
         <div align="center" class="col-lg-12 pad_top_5 col-sm-12 col-xs-12">
-        	<p>&copy; MyBlog. All Rights Reserved. Designed By <strong>Varun</strong>.</p>
+        	<p>&copy; ProClix. All Rights Reserved. Designed By <strong>Varun</strong>.</p>
         </div>
         <!--CopyRight Ends Here-->        
         
@@ -537,7 +537,7 @@ function createTemplate (data) {
 <html>
 <head>
 <meta charset="utf-8">
-<title>My Blog</title>
+<title>ProClix</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
 <!-- Latest compiled and minified CSS -->
@@ -563,7 +563,7 @@ function createTemplate (data) {
   <div class="row">  
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
     	<div class="col-lg-offset-5 col-lg-2 col-lg-offset-5 col-md-offset-5 col-md-3 col-sm-offset-5 col-sm-3">
-         <a href="/" style="color:#FFF;"><h1>My Blog</h1></a>
+         <a href="/" style="color:#FFF;"><h1>ProClix</h1></a>
         </div>
     </div>
   </div>
@@ -685,7 +685,7 @@ function createTemplate (data) {
         
         <!--CopyRight starts Here-->
         <div align="center" class="col-lg-12 pad_top_5 col-sm-12 col-xs-12">
-        	<p>&copy; MyBlog. All Rights Reserved. Designed By <strong>Varun</strong>.</p>
+        	<p>&copy; ProClix. All Rights Reserved. Designed By <strong>Varun</strong>.</p>
         </div>
         <!--CopyRight Ends Here-->        
         
