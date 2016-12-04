@@ -174,7 +174,7 @@ function loadCategory () {
 				   content += `
 				         <div class="col-lg-6 pad_bot col-sm-6"> <img src="${articleData[i].img}" class="img-responsive">
         <div class="cat_title">
-          <p><b class="cat">${articleData[i].category}</b> / (${articleData[i].date.split('T')[0]})</p>
+          <p class="para"><b class="cat">${articleData[i].category}</b> / (${articleData[i].date.split('T')[0]})</p>
           <h3>${articleData[i].heading}</h3>
         </div>
         <p class="para">${articleData[i].content.substring(3, 150)}</p>
